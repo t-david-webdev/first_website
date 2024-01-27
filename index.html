@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Noha and David - first website</title>
 </head>
 <body>
+
+    <h1>HTML & CSS Cours</h1>
+    <p>Learn how to use HTML and CSS to make webpages. HTML is the markup language that you surround content with, to tell browsers about headings, lists, tables, and more. CSS is the stylesheet language that you style the page with, to tell browsers to change the color, font, layout, and more.
+    </p>
+    <h2>Mini Project to To Practice HTML and CSS Skills</h2>
+
+    <ul>
+        <li>LogIn Page.</li>
+        <li>Music Store Page.</li>
+        <li>Portfolio website to introduce your your self.</li>
+        <li>Blog website.</li>
+        <li>FAQ page.</li>
+    </ul>
+
+
+    <!-- Offers -->
+    <div id="main-cont">
+
+        <div class="card">
+            <img src="assates/front-page-img/img-1.jpg" alt="">
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <button>CTA btn</button>
+        </div>
+
+        <div class="card">
+            <img src="assates/front-page-img/img-2.jpg" alt="">
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <button>CTA btn</button>
+        </div>
+
+        <div class="card">
+            <img src="assates/front-page-img/img-3.jpg" alt="">
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <button>CTA btn</button>
+        </div>
+
+    </div>
+
+    <!-- Form -->
+
+    <div id="form-div">
+
+        <div class="form-cont">
+
+            <h2>Contact form</h2>
+
+            <form action="submit" id="quote-form">
+
+                <label for=""> User Name
+                    <input type="text" placeholder="user-name">
+                </label>
+
+                <label for=""> E-mail
+                    <input type="email" placeholder="your business email address">
+                </label>
+
+                <label for=""> Your Address
+                    <input type="text" placeholder="address">
+                </label>
+
+                <label for="" id="geneder"> Choose your gender
+
+                    <input type = "radio" name = "gender" value = "Male" checked> Male
+                    <input type="radio" name = "gender" value="female">Female
+
+                </label>
+
+                <label for="">Select country
+
+                    <select name="" id="">
+                        <option value="">Switzerland</option>
+                        <option value="">United Kingdom</option>
+                        <option value="">Italy</option>
+                    </select>
+
+                </label>
+
+                <label for="">Leave Us a Message
+                    <textarea name="" id="" cols="30" rows="10" placeholder="At least 30 characters..."></textarea>
+                </label>
+
+                    <input type="submit" id="sbmt" value="Get your quote now">
+
+            </form>
+
+        </div>
+
+    </div>
+
+
     
 </body>
 </html>
